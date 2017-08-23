@@ -38,8 +38,9 @@ public class ArticleDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_detail);
 
-        if(url != null && !url.isEmpty()) {
-        } else
+//        if(url != null && !url.isEmpty()) {
+//            //urlがない場合の処理(ボタン非表示)
+//        } else //urlがある場合の処理(ボタン表示)
 
         findViewById(R.id.btn_web).setOnClickListener(new View.OnClickListener() {
             @Override
